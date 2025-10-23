@@ -1,4 +1,4 @@
-def prompt_generator(json_data: str, format_instructions: str) -> str:
+def prompt_generator(json_data, format_instructions):
     prompt_template = '''
     You are an expert product recommendation system. Your task is to analyze user data and extract both hard specifications and soft needs for each user.
     Think step by step and analyze what the user must have versus what they would like to have.
