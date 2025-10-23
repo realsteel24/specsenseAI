@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 import os
-api_key = os.getenv("GEMINI_KEY")
-gemini_model = "gemini-2.0-flash"
-ollama_model = 'llama2:latest'    
+API_KEY = os.getenv("GEMINI_KEY")
+TEMPERATURE = 0.7
+GEMINI_MODEL = "gemini-2.0-flash"
+OLLAMA_MODEL = 'llama3:8b'
